@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(37, 29, 29);
+  color: black;
+  font-family: 'Ubuntu', sans-serif;;
+}
+
+.container{
+  display: inline-block;
+  position: absolute;
+  top: 20vh;
+  left: 35vw;
+  border: 5px solid black;
+  height: 70vh;
+  width: 30vw;
+}
+
+
+.container {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 50px white;
+}
+
+
+.container:hover{
+  border: 4px solid white;
+}
+
+
+
+.login{
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 145px;
+}
+
+
+.email{
+  display: inline-block;
+  position: relative;
+  top: 120px;
+  left: -64px;
+}
+
+.eml{
+  display: inline-block;
+  position: relative;
+  top: 80px;
+  left: 0px;
+}
+
+
+.email input{
+  height: 45px;
+  width: 250px;
+  font-size: medium;
+}
+
+
+
+.passward{
+  display: inline-block;
+  position: relative;
+  top: 200px;
+  left: -14px;
+}
+
+.pass{
+  display: inline-block;
+  position: relative;
+  top: 158px;
+  left: 96px;
+}
+
+
+.passward input{
+  height: 45px;
+  width: 250px;
+  font-size: medium;
+}
+
+
+
+.sign{
+  display: inline-block;
+  position: relative;
+  top: 230px;
+  left:156px;
+}
+
+.sign button{
+  background-color: yellow;
+  height: 40px;
+  width: 90px;
+}
+
+.sign button:active{
+  border: 3px solid white;
+}
+
+
+.google{
+  display: inline-block;
+  position: relative;
+  top: 320px;
+  left: -95px;
+  width: 200px;
+  background-color: yellow;
+}
+
+
+.apple{
+  display: inline-block;
+  position: relative;
+  top: 285px;
+  left: 220px;
+  width: 200px;
+  background-color: yellow;
+}
